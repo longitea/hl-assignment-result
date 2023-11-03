@@ -1,0 +1,21 @@
+#JokeContent {
+  height: 460px;
+  background-color: var(--joke-component-bg);
+  border-bottom: 1px solid black;
+}
+
+.joke__content {
+  display: flex;
+  align-items: center;
+  height: 260px;
+  font-size: 20px;
+  width: 61%;
+  margin: 0 auto;
+  line-height: 1.5;
+  letter-spacing: -0.2px;
+  color: var(--gray-text);
+  > p {
+    margin-top: 17px;
+    margin-left: 2px;
+  }
+}

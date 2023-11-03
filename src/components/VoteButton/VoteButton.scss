@@ -1,0 +1,28 @@
+#VoteButton {
+  width: 48%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgb(136, 136, 136, 0.2);
+  gap: 29px;
+  > .btn {
+    margin-top: 48px;
+    width: 270px;
+    height: 51px;
+    font-size: 19px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  > .btn:hover {
+    opacity: 0.7;
+  }
+  > .like-btn {
+    background-color: var(--like-btn-bg);
+    border-bottom: 3px solid var(--like-btn-border);
+  }
+  > .dislike-btn {
+    background-color: var(--dislike-btn-bg);
+    border-bottom: 3px solid var(--dislike-btn-border);
+  }
+}

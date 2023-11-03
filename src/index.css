@@ -3,3 +3,48 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-family: Poppins, sans-serif, Roboto, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+
+/** -=============== Define CSS Variable ===============- */
+:root {
+  --primary-color: #29B363;
+  --white: #ffffff;
+  --gray-text: #8E8E8E;
+  --joke-component-bg: #FCFCFC;
+  /* Button */
+  --like-btn-bg: #2C7EDB;
+  --like-btn-border: #1C69C0;
+  --dislike-btn-bg: #29B363;
+  --dislike-btn-border: #19984E;
+}
+
+.container {
+  width: 84%;
+  margin: 0 auto;
+}
+
+
+
+/** -=============== Responsive ===============- */
+
+@media (min-width: 1600px) {
+
+
+  /* .container {
+    width: 60%;
+    margin: 0 auto;
+  } */
+
+
+}
+
+@media (min-width: 768px) {
+  body {
+    --spacing: 20px;
+  }
+}
