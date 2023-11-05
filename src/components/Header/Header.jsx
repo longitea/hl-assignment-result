@@ -7,8 +7,8 @@ export default function Header() {
     return (
         <header id='Header'>
             <div className='sub-header'>
-                <Link to={'/'}>PC View</Link>
-                <Link to={'/algorithm'}>Algorithm Result</Link>
+                <Link to={'/'}>Frontend Test</Link>
+                <Link to={'/algorithm'}>Algorithm Test</Link>
             </div>
             <div className="container">
                 <div className="header__content">

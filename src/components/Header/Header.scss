@@ -1,3 +1,5 @@
+@import "../../index.scss";
+
 header {
   border-bottom: 1px solid var(--gray-text);
   overflow: hidden;
@@ -12,14 +14,12 @@ header {
     display: flex;
     align-items: center;
 
-    @media (min-width: 1600px) {
-      // margin: 0 54px;
+    @media (min-width: $large-screen) {
       margin: 0px 87px;
     }
   }
   &--logo {
-    @media (min-width: 1600px) {
-      // margin: 0 65px;
+    @media (min-width: $large-screen) {
       margin: 0 105px;
     }
   }
@@ -44,6 +44,9 @@ header {
   border-radius: 50%;
   position: relative;
   overflow: hidden;
+  @media (max-width: $mobile-screen) {
+    margin-right: 20px;
+  }
 
   > img {
     width: 130%;

@@ -1,6 +1,14 @@
+@import "../../index.scss";
+
 #JokeContent {
   height: 460px;
   background-color: var(--joke-component-bg);
+  @media (max-width: $mobile-screen) {
+    height: 680px;
+    > .container {
+      height: 100%;
+    }
+  }
 }
 
 .joke__content {
@@ -17,6 +25,15 @@
     margin-top: 17px;
     margin-left: 2px;
   }
+
+  @media (max-width: $mobile-screen) {
+    font-size: 18px;
+    align-items: flex-start;
+    padding-top: 70px;
+    width: 90%;
+    margin: 0 auto;
+    height: 70%;
+  }
 }
 
 .no-more-joke {
@@ -24,4 +41,42 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#VoteButton {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  border-top: 1px solid rgb(136, 136, 136, 0.2);
+  gap: 29px;
+  @media (max-width: $mobile-screen) {
+    width: 80%;
+    gap: 10%;
+  }
+  > .btn {
+    margin-top: 48px;
+    width: 270px;
+    height: 51px;
+    font-size: 19px;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    @media (max-width: $mobile-screen) {
+      width: 200px;
+    }
+  }
+  > .btn:hover {
+    opacity: 0.7;
+  }
+  > .like-btn {
+    background-color: var(--like-btn-bg);
+    border-bottom: 3px solid var(--like-btn-border);
+  }
+  > .dislike-btn {
+    background-color: var(--dislike-btn-bg);
+    border-bottom: 3px solid var(--dislike-btn-border);
+  }
 }

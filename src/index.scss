@@ -9,18 +9,17 @@ html {
   font-size: 16px;
 }
 
-
 /** -=============== Define CSS Variable ===============- */
 :root {
-  --primary-color: #29B363;
+  --primary-color: #29b363;
   --white: #ffffff;
-  --gray-text: #8E8E8E;
-  --joke-component-bg: #FCFCFC;
+  --gray-text: #8e8e8e;
+  --joke-component-bg: #fcfcfc;
   /* Button */
-  --like-btn-bg: #2C7EDB;
-  --like-btn-border: #1C69C0;
-  --dislike-btn-bg: #29B363;
-  --dislike-btn-border: #19984E;
+  --like-btn-bg: #2c7edb;
+  --like-btn-border: #1c69c0;
+  --dislike-btn-bg: #29b363;
+  --dislike-btn-border: #19984e;
 }
 
 .container {
@@ -30,21 +29,17 @@ html {
 
 /** -=============== Responsive ===============- */
 
-@media (min-width: 1600px) {
-  /* .container {
-    width: 60%;
-    margin: 0 auto;
-  } */
-}
+// Responsive Size
+$large-screen: 1600px;
+$mobile-screen: 650px;
 
-@media (min-width: 768px) {
-  body {
-    --spacing: 20px;
-  }
-
+@media (max-width: $mobile-screen) {
   .container {
     width: 100%;
     margin: 0;
   }
 
+  html {
+    font-size: 12px;
+  }
 }

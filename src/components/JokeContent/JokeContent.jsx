@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import './JokeContent.scss'
-import VoteButton from '../VoteButton/VoteButton'
 import { jokeList } from '../../data/jokes'
 import { useCookies } from 'react-cookie'
 
