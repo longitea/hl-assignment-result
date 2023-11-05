@@ -1,10 +1,10 @@
 @import "../../index.scss";
 
 #JokeContent {
-  height: 460px;
+  height: 360px;
   background-color: var(--joke-component-bg);
   @media (max-width: $mobile-screen) {
-    height: 680px;
+    height: 580px;
     > .container {
       height: 100%;
     }
@@ -32,7 +32,7 @@
     padding-top: 70px;
     width: 90%;
     margin: 0 auto;
-    height: 70%;
+    height: 60%;
   }
 }
 
