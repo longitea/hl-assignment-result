@@ -8,6 +8,7 @@ import Footer from '../../components/Footer/Footer'
 export default function Home() {
     return (
         <div id='Home'>
+            {/* <Header /> */}
             <Section />
             <JokeContent />
             {/* <img src="/mobile.png" alt="" className='deleteme' /> */}

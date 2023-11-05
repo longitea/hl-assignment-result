@@ -1,2 +1,41 @@
 #Algorithm {
+  height: 550px;
+  margin: 0 auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  //   align-items: center;
+  text-align: center;
+
+  > .alg_title {
+    // margin: 30px;
+    margin: 30px 0;
+    > p {
+      margin-top: 5px;
+      color: var(--gray-text);
+    }
+  }
+}
+
+.alg__submit {
+  margin: 30px 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  > input {
+    flex: 1 2;
+  }
+  > button {
+    cursor: pointer;
+    &:hover {
+      background: var(--gray-text);
+      color: white;
+    }
+  }
+
+  > .alg__btn {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid plum;
+  }
 }
