@@ -4,6 +4,8 @@ header {
     width: 1600px;
     margin: 0 auto;
   }
+  border-bottom: 1px solid var(--gray-text);
+  overflow: hidden;
 }
 
 .header__content {

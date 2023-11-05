@@ -1,7 +1,6 @@
 #JokeContent {
   height: 460px;
   background-color: var(--joke-component-bg);
-  border-bottom: 1px solid black;
 }
 
 .joke__content {
@@ -18,4 +17,11 @@
     margin-top: 17px;
     margin-left: 2px;
   }
+}
+
+.no-more-joke {
+  height: 460px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
