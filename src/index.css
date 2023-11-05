@@ -28,19 +28,13 @@ html {
   margin: 0 auto;
 }
 
-
-
 /** -=============== Responsive ===============- */
 
 @media (min-width: 1600px) {
-
-
   /* .container {
     width: 60%;
     margin: 0 auto;
   } */
-
-
 }
 
 @media (min-width: 768px) {

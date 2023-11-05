@@ -12,7 +12,7 @@ export default function Home() {
             <Section />
             <JokeContent />
             <Footer />
-            <img src="/PC.png" alt="" className='deleteme' />
+            {/* <img src="/mobile.png" alt="" className='deleteme' /> */}
         </div>
     )
 }
